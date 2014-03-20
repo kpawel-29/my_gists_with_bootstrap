@@ -1,0 +1,215 @@
+2014-03-11T22:42:07.298361+00:00 heroku[api]: Enable Logplex by pakadlubowski@gmail.com
+2014-03-11T22:42:07.298441+00:00 heroku[api]: Release v2 created by pakadlubowski@gmail.com
+2014-03-11T22:43:06+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-11T22:43:39+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-11T22:59:05+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-11T22:59:24+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-11T23:00:45+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-11T23:01:10+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-11T23:08:17+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T00:02:32+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:03:08+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T00:07:26+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:08:04+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T00:11:54+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:12:52+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-12T00:12:57.295260+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 31081 -e production`
+2014-03-12T00:12:51.259808+00:00 heroku[api]: Scale to web=1 by pakadlubowski@gmail.com
+2014-03-12T00:12:58.840571+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 10054 -e production`
+2014-03-12T00:12:58.005375+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T00:12:59.160190+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T00:12:59.170850+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T00:12:59.170850+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T00:12:52.336506+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_IVORY resource by pakadlubowski@gmail.com
+2014-03-12T00:12:52.336617+00:00 heroku[api]: Release v3 created by pakadlubowski@gmail.com
+2014-03-12T00:12:52.505334+00:00 heroku[api]: Added DATABASE_URL config vars. by pakadlubowski@gmail.com
+2014-03-12T00:12:52.505447+00:00 heroku[api]: Release v4 created by pakadlubowski@gmail.com
+2014-03-12T00:12:52.746067+00:00 heroku[api]: Added LANG, RAILS_ENV, RACK_ENV config vars. by pakadlubowski@gmail.com
+2014-03-12T00:12:52.746172+00:00 heroku[api]: Release v5 created by pakadlubowski@gmail.com
+2014-03-12T00:12:52.854953+00:00 heroku[api]: Deploy c03a9a9 by pakadlubowski@gmail.com
+2014-03-12T00:12:52.855056+00:00 heroku[api]: Release v6 created by pakadlubowski@gmail.com
+2014-03-12T00:13:00.004245+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T00:13:01.423798+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T00:13:03.808238+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 3974 -e production`
+2014-03-12T00:13:04.952843+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T00:13:06.256942+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T00:13:06.247078+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T00:14:08.590210+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T00:14:13.324378+00:00 heroku[run.9598]: Awaiting client
+2014-03-12T00:14:13.381700+00:00 heroku[run.9598]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T00:14:13.442459+00:00 heroku[run.9598]: State changed from starting to up
+2014-03-12T00:14:15.039008+00:00 heroku[run.9598]: Process exited with status 127
+2014-03-12T00:14:15.052604+00:00 heroku[run.9598]: State changed from up to complete
+2014-03-12T00:15:24.709074+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=af6e2d2f-c2a3-4711-b4fc-5490529c34ca fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:15:25.640604+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=gistmaster.herokuapp.com request_id=4ef7d56b-43e2-4b40-adb8-5a0f4497694a fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:15:25.896384+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=gistmaster.herokuapp.com request_id=0dcf4a9d-c077-426f-84ff-8bcc3d87e4d8 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:17:45.850931+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=d51eccd1-d821-47db-98f0-0b5574f65f8c fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:18:00.783411+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=30b546fb-9d4b-4919-b3e1-e0c1f5639edf fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:18:05.358774+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/gists host=gistmaster.herokuapp.com request_id=0787c0db-43d7-4c75-bb80-20ec41efcb8e fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:22:40.947404+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/gists host=gistmaster.herokuapp.com request_id=35256db4-b0f7-4aa5-8dc5-3ac55d4b587a fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:25:13+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:25:27+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T00:26:59+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:27:16+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T00:29:32+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:29:42+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T00:49:49+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T00:50:16.026565+00:00 heroku[api]: Release v7 created by pakadlubowski@gmail.com
+2014-03-12T00:50:16.026494+00:00 heroku[api]: Deploy 42b09d3 by pakadlubowski@gmail.com
+2014-03-12T00:50:16+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-12T00:50:22.823779+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T00:50:30.769997+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T00:50:30.770894+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T00:50:36.110312+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 44227 -e production`
+2014-03-12T00:50:36.994769+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T00:50:38.466935+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T00:50:38.480516+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T00:50:39.923786+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=75266ba2-6a4d-4a4f-9490-ea9d7b96b137 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:50:51.292923+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/logs host=gistmaster.herokuapp.com request_id=d0f672a3-b2fb-4f13-a6ab-dc47f3d307c5 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:50:53.233101+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/log host=gistmaster.herokuapp.com request_id=18d5a31b-fe04-4f99-b1ac-2986c17c495c fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:50:55.043531+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=18a48c97-c64a-4e26-a18d-fff39f85db35 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:50:48.265800+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=dce476df-d7c0-44a2-abf2-5412720fb86d fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:52:07.533155+00:00 heroku[api]: Release v8 created by pakadlubowski@gmail.com
+2014-03-12T00:52:07.533082+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_ORANGE resource by pakadlubowski@gmail.com
+2014-03-12T00:52:07.751426+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T00:52:12.445306+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 16972 -e production`
+2014-03-12T00:52:13.422542+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T00:52:15.177482+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T00:52:15.162260+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T00:52:46.285034+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=2d15d2b8-3028-4767-b860-c134573cdaa6 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T00:53:13.162804+00:00 heroku[api]: Starting process with command `bundle exec rake db:create` by pakadlubowski@gmail.com
+2014-03-12T00:53:18.938218+00:00 heroku[run.9864]: Awaiting client
+2014-03-12T00:53:19.003755+00:00 heroku[run.9864]: Starting process with command `bundle exec rake db:create`
+2014-03-12T00:53:20.776320+00:00 heroku[run.9864]: Process exited with status 127
+2014-03-12T00:53:20.795220+00:00 heroku[run.9864]: State changed from up to complete
+2014-03-12T00:53:18.656045+00:00 heroku[run.9864]: State changed from starting to up
+2014-03-12T00:53:41.786094+00:00 heroku[api]: Starting process with command `bundle exec rake db:create` by pakadlubowski@gmail.com
+2014-03-12T00:53:47.228843+00:00 heroku[run.6135]: State changed from starting to up
+2014-03-12T00:53:47.713911+00:00 heroku[run.6135]: Awaiting client
+2014-03-12T00:53:47.747697+00:00 heroku[run.6135]: Starting process with command `bundle exec rake db:create`
+2014-03-12T00:53:49.412883+00:00 heroku[run.6135]: Process exited with status 127
+2014-03-12T00:53:49.428231+00:00 heroku[run.6135]: State changed from up to complete
+2014-03-12T01:04:34.962656+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T01:04:39.244615+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 29859 -e production`
+2014-03-12T01:04:39.948330+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T01:04:41.142936+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T01:04:41.128541+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T01:08:46+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T01:09:16.605971+00:00 heroku[api]: Deploy 6129607 by pakadlubowski@gmail.com
+2014-03-12T01:09:16.606074+00:00 heroku[api]: Release v9 created by pakadlubowski@gmail.com
+2014-03-12T01:09:16+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-12T01:09:17.633809+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T01:09:22.139620+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 4118 -e production`
+2014-03-12T01:09:23.319740+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T01:09:25.216781+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T01:09:25.231994+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T01:09:43.925479+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=f0f77cab-3d13-4bba-8ab9-4a2c2e09fddb fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T01:17:53+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T01:18:19.504267+00:00 heroku[api]: Deploy 5b01cff by pakadlubowski@gmail.com
+2014-03-12T01:18:19.504346+00:00 heroku[api]: Release v10 created by pakadlubowski@gmail.com
+2014-03-12T01:18:19+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-12T01:18:19.724423+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T01:18:26.498786+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 5408 -e production`
+2014-03-12T01:18:27.757777+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T01:18:29.181507+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T01:18:29.182364+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T01:18:29.177195+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T01:18:33.408309+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 29107 -e production`
+2014-03-12T01:18:34.239567+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T01:18:35.949296+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T01:18:35.965621+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T01:18:37.185075+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=0e5760f9-72c5-4cb5-8c59-4751531d7412 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T01:18:46.906419+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T01:18:51.724693+00:00 heroku[run.8503]: State changed from starting to up
+2014-03-12T01:18:51.742818+00:00 heroku[run.8503]: Awaiting client
+2014-03-12T01:18:51.871911+00:00 heroku[run.8503]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T01:18:53.917600+00:00 heroku[run.8503]: State changed from up to complete
+2014-03-12T01:18:53.902577+00:00 heroku[run.8503]: Process exited with status 127
+2014-03-12T01:19:15.784184+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T01:19:23.153899+00:00 heroku[run.4006]: State changed from starting to up
+2014-03-12T01:19:23.336043+00:00 heroku[run.4006]: Awaiting client
+2014-03-12T01:19:23.403692+00:00 heroku[run.4006]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T01:19:27.160334+00:00 heroku[run.4006]: Process exited with status 127
+2014-03-12T01:19:27.174419+00:00 heroku[run.4006]: State changed from up to complete
+2014-03-12T01:22:33.041045+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=c78d70c1-bbcf-4098-b947-cfcd3230f791 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T01:26:08.599219+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=9574f4c3-2771-4031-9739-9290358a39d9 fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
+2014-03-12T01:57:39.626781+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T01:57:43.357982+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 36399 -e production`
+2014-03-12T01:57:44.150214+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T01:57:45.376597+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T01:57:45.395123+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T02:46:10.992807+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T02:46:14.619834+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 50619 -e production`
+2014-03-12T02:46:15.425961+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T02:46:16.759453+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T02:46:16.771762+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T04:19:38.404484+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T04:19:42.787121+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 30803 -e production`
+2014-03-12T04:19:43.975876+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T04:19:45.221081+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T04:19:45.231604+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T07:20:30.862681+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T07:20:36.631000+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 55084 -e production`
+2014-03-12T07:20:37.643489+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T07:20:39.143886+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T07:20:39.161896+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T09:04:39.681773+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=9a1b0d9c-94b8-4660-982c-15e2d281f76c fwd="153.19.4.18" dyno= connect= service= status=503 bytes=
+2014-03-12T09:04:41.890355+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=gistmaster.herokuapp.com request_id=4e3103ef-ba60-45c2-b217-030ce74209b9 fwd="153.19.4.18" dyno= connect= service= status=503 bytes=
+2014-03-12T09:17:09.244328+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=99f5046b-6d88-44cf-b7c1-0054e41a73af fwd="153.19.4.183" dyno= connect= service= status=503 bytes=
+2014-03-12T09:19:23.748442+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T09:19:28.462189+00:00 heroku[run.8035]: Awaiting client
+2014-03-12T09:19:28.498351+00:00 heroku[run.8035]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T09:19:28.677165+00:00 heroku[run.8035]: State changed from starting to up
+2014-03-12T09:19:29.871706+00:00 heroku[run.8035]: Process exited with status 127
+2014-03-12T09:19:29.888225+00:00 heroku[run.8035]: State changed from up to complete
+2014-03-12T10:16:50.771267+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T10:16:55.953869+00:00 heroku[run.3522]: State changed from starting to up
+2014-03-12T10:16:56.175684+00:00 heroku[run.3522]: Awaiting client
+2014-03-12T10:16:56.207335+00:00 heroku[run.3522]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T10:16:57.778215+00:00 heroku[run.3522]: Process exited with status 127
+2014-03-12T10:16:57.787357+00:00 heroku[run.3522]: State changed from up to complete
+2014-03-12T10:19:14.800170+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=gistmaster.herokuapp.com request_id=00d9fdaa-edd8-4c4a-8fb7-5f225774730e fwd="153.19.4.183" dyno= connect= service= status=503 bytes=
+2014-03-12T10:19:14.926084+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=gistmaster.herokuapp.com request_id=a8e67ed0-0e61-489a-8153-f71fdd6c2380 fwd="153.19.4.183" dyno= connect= service= status=503 bytes=
+2014-03-12T10:19:13.029929+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=5304a844-193b-4191-9587-fec54d1f6d6a fwd="153.19.4.183" dyno= connect= service= status=503 bytes=
+2014-03-12T10:19:43.139707+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=d49a18ae-f106-4363-8518-1b4c06963ef4 fwd="153.19.4.183" dyno= connect= service= status=503 bytes=
+2014-03-12T10:21:15.074808+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T10:21:19.541563+00:00 heroku[run.4173]: Awaiting client
+2014-03-12T10:21:19.579372+00:00 heroku[run.4173]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T10:21:19.595472+00:00 heroku[run.4173]: State changed from starting to up
+2014-03-12T10:21:21.066135+00:00 heroku[run.4173]: Process exited with status 127
+2014-03-12T10:21:21.073577+00:00 heroku[run.4173]: State changed from up to complete
+2014-03-12T13:25:51.186276+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T13:25:54.993241+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 52711 -e production`
+2014-03-12T13:25:56.225918+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T13:25:57.539941+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T13:25:57.550575+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T14:32:05.163411+00:00 heroku[run.2018]: Awaiting client
+2014-03-12T14:32:05.248173+00:00 heroku[run.2018]: Starting process with command `bundle exec rake db:migrate`
+2014-03-12T14:32:05.270978+00:00 heroku[run.2018]: State changed from starting to up
+2014-03-12T14:32:06.860236+00:00 heroku[run.2018]: Process exited with status 127
+2014-03-12T14:32:06.873915+00:00 heroku[run.2018]: State changed from up to complete
+2014-03-12T14:32:00.064287+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pakadlubowski@gmail.com
+2014-03-12T14:36:40.805405+00:00 heroku[api]: Add BUNDLE_WITHOUT config by pakadlubowski@gmail.com
+2014-03-12T14:36:40.805500+00:00 heroku[api]: Release v11 created by pakadlubowski@gmail.com
+2014-03-12T14:36:41.086759+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T14:36:46.281662+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 20924 -e production`
+2014-03-12T14:36:47.305811+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T14:36:48.726548+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T14:36:48.712619+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T14:36:48.727071+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T14:36:54.265235+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 10115 -e production`
+2014-03-12T14:36:55.151544+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T14:36:56.745316+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T14:36:56.730148+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T14:38:59+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T14:39:34+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Ruby app
+2014-03-12T14:44:18+00:00 heroku[slug-compiler]: Slug compilation started
+2014-03-12T14:45:32.599156+00:00 heroku[api]: Deploy 262df48 by pakadlubowski@gmail.com
+2014-03-12T14:45:32.599258+00:00 heroku[api]: Release v12 created by pakadlubowski@gmail.com
+2014-03-12T14:45:32+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-03-12T14:45:33.664757+00:00 heroku[web.1]: State changed from crashed to starting
+2014-03-12T14:45:38.488183+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 58620 -e production`
+2014-03-12T14:45:39.341502+00:00 app[web.1]: /usr/bin/env: ruby1.9.1: No such file or directory
+2014-03-12T14:45:40.919727+00:00 heroku[web.1]: Process exited with status 127
+2014-03-12T14:45:40.931494+00:00 heroku[web.1]: State changed from starting to crashed
+2014-03-12T14:45:57.424731+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=gistmaster.herokuapp.com request_id=60386353-b1db-40c4-8519-7c2bcfb93c0e fwd="89.71.200.239" dyno= connect= service= status=503 bytes=
