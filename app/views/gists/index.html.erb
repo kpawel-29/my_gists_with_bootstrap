@@ -16,11 +16,12 @@
     <% @gists.each do |gist| %>
       <tr>
         <td><%= link_to gist.id, gist_path(gist) %></td>
-        <td><%= gist.snippet %></td>
+        <td><%= gist.snippet[0..25] %></td>
         <td><%= gist.lang %></td>
         <td><%= gist.description %></td>
         <td>
-          
+          <%= link_to t('.show', :default => t("helpers.links.show")),
+                      gist_path(gist), :class => 'btn btn-mini btn-success' %>
 
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_gist_path(gist), :class => 'btn btn-mini' %>
