@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00e5404-3748-44e5-aaa1-473498918a9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/_gist.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.js.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.js.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="my_gists_with_bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_gist.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_gist.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="0.6934189" vertical-offset="0" max-vertical-offset="623">
+            <state line="24" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="23" selection-start="407" selection-end="407" vertical-scroll-proportion="0.91525424" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -81,13 +87,14 @@
         <option value="$PROJECT_DIR$/app/views/gists/index.js.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1366" />
-    <option name="height" value="743" />
+    <option name="height" value="649" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -445,7 +452,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="649" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -633,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="632" selection-end="635" vertical-scroll-proportion="0.9352518" vertical-offset="128" max-vertical-offset="756">
@@ -656,7 +656,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="0.6934189" vertical-offset="0" max-vertical-offset="623">
+        <state line="24" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="407" selection-end="407" vertical-scroll-proportion="0.91525424" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>

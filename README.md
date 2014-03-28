@@ -18,3 +18,11 @@ Opis
 --------------
 
 > Aplikacja CRUD do zarządzania gistami.  
+
+
+Dodatki
+--------------
+- kolorowanie składni
+- infinite scrolling
+- uzupełniony plik seeds.rb
+- ... wkrótce więcej ;)
