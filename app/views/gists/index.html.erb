@@ -10,6 +10,7 @@
 <div id="infinite-scrolling">
   <%= will_paginate %>
 </div>
+<thead>
 <tr>
   <th><%= model_class.human_attribute_name(:id) %></th>
   <th><%= model_class.human_attribute_name(:snippet) %></th>
@@ -18,17 +19,18 @@
   <th><%=t '.actions', :default => t("helpers.actions") %></th>
 </tr>
 </thead>
-<tbody>
 
-<table class="table table-striped">
-  <thead>
+<div id="my-gists">
 
-  <div id="my-gists">
-    <%= render @gists %>
-  </div>
 
-  </tbody>
-</table>
+
+
+      <%= render @gists %>
+
+
+
+</div>
+
 
 
 
