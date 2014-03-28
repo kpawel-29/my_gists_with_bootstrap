@@ -24,7 +24,7 @@ Opis
 
 Dodatki
 --------------
-- poprawione widoki
+- poprawione widoki (demo)
 - kolorowanie składni
 - infinite scrolling
 - uzupełniony plik seeds.rb (demo)

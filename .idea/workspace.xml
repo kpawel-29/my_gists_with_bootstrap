@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00e5404-3748-44e5-aaa1-473498918a9f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_gists_with_bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="707" selection-end="707" vertical-scroll-proportion="0.38752362" vertical-offset="173" max-vertical-offset="900">
+            <state line="27" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="810">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="26" selection-start="425" selection-end="425" vertical-scroll-proportion="0.73069304" vertical-offset="99" max-vertical-offset="648">
               <folding />
             </state>
           </provider>
@@ -76,10 +88,10 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/index.js.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/controllers/gists_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -632,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="418" selection-end="418" vertical-scroll-proportion="0.69491524" vertical-offset="99" max-vertical-offset="648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/index.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="70" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="288">
@@ -655,7 +660,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="707" selection-end="707" vertical-scroll-proportion="0.38752362" vertical-offset="173" max-vertical-offset="900">
+        <state line="27" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="425" selection-end="425" vertical-scroll-proportion="0.73069304" vertical-offset="99" max-vertical-offset="648">
           <folding />
         </state>
       </provider>
