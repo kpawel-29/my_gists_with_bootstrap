@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00e5404-3748-44e5-aaa1-473498918a9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_gists_with_bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="864">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+            <state line="21" column="8" selection-start="707" selection-end="707" vertical-scroll-proportion="0.38752362" vertical-offset="173" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -46,16 +38,7 @@
       <file leaf-file-name="_gist.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="418" selection-end="418" vertical-scroll-proportion="0.69491524" vertical-offset="99" max-vertical-offset="648">
+            <state line="3" column="35" selection-start="3" selection-end="38" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -84,19 +67,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/bind_with_delays.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jquery.history.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/waypoints.coffee" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/gist.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/gists_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/index.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/controllers/gists_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
       </list>
     </option>
   </component>
@@ -607,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="8" selection-start="2132" selection-end="2132" vertical-scroll-proportion="1.5507692" vertical-offset="0" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.52615386" vertical-offset="0" max-vertical-offset="650">
@@ -628,37 +604,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/gists_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="329" selection-end="329" vertical-scroll-proportion="0.30461538" vertical-offset="0" max-vertical-offset="1584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/gist.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.027692307" vertical-offset="0" max-vertical-offset="650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/gists/index.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="70" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="870" selection-end="870" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
@@ -670,9 +618,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.19064748" vertical-offset="488" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/gists_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="86" selection-start="277" selection-end="302" vertical-scroll-proportion="0.2733813" vertical-offset="28" max-vertical-offset="1584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="19" selection-start="418" selection-end="418" vertical-scroll-proportion="0.69491524" vertical-offset="99" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/gists/index.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="70" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="35" selection-start="3" selection-end="38" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="707" selection-end="707" vertical-scroll-proportion="0.38752362" vertical-offset="173" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
