@@ -34,6 +34,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_gist.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,7 +55,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="407" selection-end="407" vertical-scroll-proportion="0.91525424" vertical-offset="0" max-vertical-offset="594">
+            <state line="26" column="19" selection-start="418" selection-end="418" vertical-scroll-proportion="0.69491524" vertical-offset="99" max-vertical-offset="648">
               <folding />
             </state>
           </provider>
@@ -640,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="632" selection-end="635" vertical-scroll-proportion="0.9352518" vertical-offset="128" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="864">
@@ -661,9 +663,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="407" selection-end="407" vertical-scroll-proportion="0.91525424" vertical-offset="0" max-vertical-offset="594">
+        <state line="26" column="19" selection-start="418" selection-end="418" vertical-scroll-proportion="0.69491524" vertical-offset="99" max-vertical-offset="648">
           <folding />
         </state>
       </provider>

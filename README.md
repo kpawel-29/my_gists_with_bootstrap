@@ -12,7 +12,9 @@ Gemy:
 - 'twitter-bootstrap-rails'
 - 'rails', github: 'rails/rails'
 - 'rails', '4.0.3'
-
+- 'coffee-rails', '~> 4.0.0'
+- 'uglifier', '>= 1.3.0'
+- 'bootstrap-sass', '~> 2.0.3.1'
 
 Opis
 --------------
@@ -22,7 +24,8 @@ Opis
 
 Dodatki
 --------------
+- poprawione widoki
 - kolorowanie składni
 - infinite scrolling
-- uzupełniony plik seeds.rb
-- ... wkrótce więcej ;)
+- uzupełniony plik seeds.rb (demo)
+- ... wkrótce więcej
