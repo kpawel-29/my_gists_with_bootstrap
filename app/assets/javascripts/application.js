@@ -15,3 +15,8 @@
 //= require twitter/bootstrap
 //= require turbolinks
 //= require_tree .
+//= require bootstrap
+//= require jquery.history.js
+//= require bind_with_delay
+//= require waypoints
+//= require pagination
