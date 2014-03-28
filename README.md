@@ -1,6 +1,7 @@
 My Gists
 =========
 
+
 Gemy:
 - 'will_paginate'
 - 'rails_12factor'
@@ -20,6 +21,13 @@ Opis
 --------------
 
 > Aplikacja CRUD do zarządzania gistami.  
+
+
+Link do aplikacji na Heroku:
+--------------
+
+- [gistmaster.herokuapp.com](http://gistmaster.herokuapp.com/)
+
 
 
 Dodatki
