@@ -8,18 +8,22 @@
     <td><%= gist.snippet[0..25] %></td>
     <td><%= gist.lang %></td>
     <td><%= gist.description %></td>
-    <td>
-      <%= link_to t('.show', :default => t("helpers.links.show")),
-                  gist_path(gist), :class => 'btn btn-mini btn-success' %>
+
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><%= link_to t('.show', :default => t("helpers.links.show")),
+                    gist_path(gist), :class => 'btn btn-success' %>
 
       <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                  edit_gist_path(gist), :class => 'btn btn-mini' %>
-      <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-                  gist_path(gist),
-                  :method => :delete,
-                  :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                  :class => 'btn btn-mini btn-danger' %>
-    </td>
+                  edit_gist_path(gist), :class => 'btn' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                          gist_path(gist),
+                          :method => :delete,
+                          :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                          :class => 'btn btn-danger' %></td>
   </tr>
   </tbody>
 </table>

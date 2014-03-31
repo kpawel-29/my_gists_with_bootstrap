@@ -17,7 +17,7 @@
   <th><%= model_class.human_attribute_name(:snippet) %></th>
   <th><%= model_class.human_attribute_name(:lang) %></th>
   <th><%= model_class.human_attribute_name(:description) %></th>
-  <th><%=t '.actions', :default => t("helpers.actions") %></th>
+  <!--<th><%=t '.actions', :default => t("helpers.actions") %></th>-->
 </tr>
 </table>
 </thead>
@@ -25,6 +25,7 @@
 <div id="my-gists">
 
       <%= render @gists %>
+
 
 </div>
 
