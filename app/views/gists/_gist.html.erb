@@ -5,7 +5,7 @@
   <tbody>
   <tr>
     <td><%= link_to gist.id, gist_path(gist) %></td>
-    <td><%= gist.snippet[0..25] %></td>
+    <td><%= raw Pygments.highlight(gist.snippet.length > 50 ? gist.snippet[0,50] + "..." : gist.snippet, lexer: gist.lang) %></td>
     <td><%= gist.lang %></td>
     <td><%= gist.description %></td>
 

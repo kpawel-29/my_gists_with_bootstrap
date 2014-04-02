@@ -15,8 +15,12 @@ class GistsController < ApplicationController
     end
   end
 
-  # GET /gists/1
-  # GET /gists/1.json
+
+
+  def search
+    @gists = Gist.search(params[:lang])
+  end
+
   def show
   end
 

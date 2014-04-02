@@ -45,7 +45,14 @@
 
           </a>
           <a class="brand" href="/gists">MyGists</a>
-          
+          <form class="navbar-form navbar-left pull-right" role="search" action="/gists/search">
+            <div class="form-group">
+
+              <%= select_tag(:lang, options_for_select(Pygments.lexers.keys.sort.map! {|l| l.downcase.strip}, params[:lang]))%>
+
+              <button type="submit" class="btn btn-default">Search</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
