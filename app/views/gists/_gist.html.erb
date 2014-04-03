@@ -1,25 +1,29 @@
 
 
 
-<table class="table table-striped">
-  <tbody>
-  <tr>
-    <td rowspan="3"><%= gist.id %></td>
-    <td rowspan="3"><%= raw Pygments.highlight(gist.snippet.length > 50 ? gist.snippet[0,50] + "..." : gist.snippet, lexer: gist.lang) %></td>
-    <td rowspan="3"><%= gist.lang %></td>
-    <td rowspan="3"><%= gist.description %></td>
+<div class="container-fluid">
+    <div class="row">
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;gist number: <%= gist.id %><small>  <%= gist.description %></small></h4>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;lang: <%= gist.lang %></h4>
+  <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;created: <%= gist.created_at %></h6>
+  <div class="snippet">
+      <%= raw Pygments.highlight(gist.snippet.length > 100 ? gist.snippet[0,100] + "..." : gist.snippet, lexer: gist.lang) %>
+  </div>
 
 
-    <td align = "center"><%= link_to t('.show', :default => t("helpers.links.show")),
+    <tr>&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to t('.show', :default => t("helpers.links.show")),
                     gist_path(gist), :class => 'btn btn-success' %>
 
-      <tr><td><%= link_to t('.edit', :default => t("helpers.links.edit")),
-                  edit_gist_path(gist), :class => 'btn' %></td></tr>
-          <tr><td><%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+      <%= link_to t('.edit', :default => t("helpers.links.edit")),
+<<<<<<< HEAD
+                  edit_gist_path(gist), :class => 'btn' %>
+=======
+                  edit_gist_path(gist), :class => 'btn' %></td>
+>>>>>>> 79f615427b455d3c4bf8a30ba6142f39d3a5a667
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                           gist_path(gist),
                           :method => :delete,
                           :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                          :class => 'btn btn-danger' %></td></tr>
-  </td>
-  </tbody>
-</table>
+                          :class => 'btn btn-danger' %></tr><br><br>
+    </div>
+</div>

@@ -45,6 +45,9 @@
 
           </a>
           <a class="brand" href="/gists">MyGists</a>
+          <%= link_to t('.new', :default => t("helpers.links.new")),
+                      new_gist_path, :position => 'center',
+                      :class => 'btn btn-info' %>
           <form class="navbar-form navbar-left pull-right" role="search" action="/gists/search">
             <div class="form-group">
 

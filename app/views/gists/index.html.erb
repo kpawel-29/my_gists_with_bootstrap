@@ -3,32 +3,54 @@
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
 </div>
 
-<%= link_to t('.new', :default => t("helpers.links.new")),
-            new_gist_path,
-            :class => 'btn btn-primary' %>
-
+<<<<<<< HEAD
 <div id="infinite-scrolling">
   <%= will_paginate %>
 </div>
+
+
 <thead>
-<table class="table table-striped">
-<tr>
-  <th><%= model_class.human_attribute_name(:id) %></th>
-  <th><%= model_class.human_attribute_name(:snippet) %></th>
-  <th><%= model_class.human_attribute_name(:lang) %></th>
-  <th><%= model_class.human_attribute_name(:description) %></th>
-  <th><%=t '.actions', :default => t("helpers.actions") %></th>
-</tr>
-</table>
+<!--<table class="table table-striped">-->
+<!--<tr>-->
+<!--<th><%= model_class.human_attribute_name(:id) %></th>-->
+<!--<th><%= model_class.human_attribute_name(:snippet) %></th>-->
+<!--<th><%= model_class.human_attribute_name(:lang) %></th>-->
+<!--<th><%= model_class.human_attribute_name(:description) %></th>-->
+<!--<th><%=t '.actions', :default => t("helpers.actions") %></th>-->
+=======
+
+
+<div id="infinite-scrolling" position="fixed">
+  <%= will_paginate %>
+</div>
+<thead>
+<!--<table class="table table-striped">-->
+<!--<tr>-->
+  <!--<th><%= model_class.human_attribute_name(:id) %></th>-->
+  <!--<th><%= model_class.human_attribute_name(:snippet) %></th>-->
+  <!--<th><%= model_class.human_attribute_name(:lang) %></th>-->
+  <!--<th><%= model_class.human_attribute_name(:description) %></th>-->
+  <!--<th><%=t '.actions', :default => t("helpers.actions") %></th>-->
+>>>>>>> 79f615427b455d3c4bf8a30ba6142f39d3a5a667
+<!--</tr>-->
+<!--</table>-->
 </thead>
 
 <div id="my-gists">
 
-      <%= render @gists %>
+<<<<<<< HEAD
+  <%= render @gists %>
 
+</div>
+<div id="infinite-scrolling">
+  <%= will_paginate %>
+</div>
+=======
+      <%= render @gists %>
 
 </div>
 
+>>>>>>> 79f615427b455d3c4bf8a30ba6142f39d3a5a667
 
 
 

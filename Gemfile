@@ -15,7 +15,6 @@ gem 'quiet_assets'
 gem 'twitter-bootstrap-rails'
 
 
-#gem 'railties' '~> 3.2.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
