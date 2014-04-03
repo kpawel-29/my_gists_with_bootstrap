@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00e5404-3748-44e5-aaa1-473498918a9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/lang.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/gists/search.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/gists/search.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/_gist.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/gist.rb" afterPath="$PROJECT_DIR$/app/models/gist.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gists_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gists_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/my_gists_with_bootstrap.iml" afterPath="$PROJECT_DIR$/.idea/my_gists_with_bootstrap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/show.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_gists_with_bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.4725898" vertical-offset="200" max-vertical-offset="828">
+            <state line="19" column="58" selection-start="631" selection-end="692" vertical-scroll-proportion="-9.259259" vertical-offset="92" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
@@ -51,7 +40,16 @@
       <file leaf-file-name="_gist.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="79" selection-start="188" selection-end="188" vertical-scroll-proportion="-2.1111112" vertical-offset="69" max-vertical-offset="612">
+            <state line="12" column="24" selection-start="356" selection-end="356" vertical-scroll-proportion="-7.111111" vertical-offset="24" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="1237" selection-end="1282" vertical-scroll-proportion="0.7958412" vertical-offset="209" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -78,20 +76,20 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffold.css" />
-        <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140331100335_create_langs.rb" />
         <option value="$PROJECT_DIR$/app/views/gists/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/gists_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/gist.rb" />
         <option value="$PROJECT_DIR$/app/views/gists/search.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/views/gists/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/gists/search.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/gists/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
       </list>
     </option>
   </component>
@@ -286,6 +284,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_gists_with_bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_gists_with_bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_gists_with_bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_gists_with_bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -678,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="796" selection-end="796" vertical-scroll-proportion="0.39325842" vertical-offset="115" max-vertical-offset="738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
@@ -785,21 +816,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="957" selection-end="957" vertical-scroll-proportion="0.6805293" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="79" selection-start="188" selection-end="188" vertical-scroll-proportion="-2.1111112" vertical-offset="69" max-vertical-offset="612">
+        <state line="22" column="0" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.74858224" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.4725898" vertical-offset="200" max-vertical-offset="828">
+        <state line="19" column="58" selection-start="631" selection-end="692" vertical-scroll-proportion="-9.259259" vertical-offset="92" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="356" selection-end="356" vertical-scroll-proportion="-7.111111" vertical-offset="24" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1237" selection-end="1282" vertical-scroll-proportion="0.7958412" vertical-offset="209" max-vertical-offset="810">
           <folding />
         </state>
       </provider>

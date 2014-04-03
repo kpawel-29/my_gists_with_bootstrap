@@ -20,7 +20,7 @@
   <dd><%= @gist.description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:snippet) %>:</strong></dt>
   
-  <!-- <dd><%= @gist.snippet %></dd> -->
+
   <dd><%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang.downcase) %></dd>
   
 

@@ -4,26 +4,22 @@
 <table class="table table-striped">
   <tbody>
   <tr>
-    <td><%= link_to gist.id, gist_path(gist) %></td>
-    <td><%= raw Pygments.highlight(gist.snippet.length > 50 ? gist.snippet[0,50] + "..." : gist.snippet, lexer: gist.lang) %></td>
-    <td><%= gist.lang %></td>
-    <td><%= gist.description %></td>
+    <td rowspan="3"><%= gist.id %></td>
+    <td rowspan="3"><%= raw Pygments.highlight(gist.snippet.length > 50 ? gist.snippet[0,50] + "..." : gist.snippet, lexer: gist.lang) %></td>
+    <td rowspan="3"><%= gist.lang %></td>
+    <td rowspan="3"><%= gist.description %></td>
 
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td><%= link_to t('.show', :default => t("helpers.links.show")),
+
+    <td align = "center"><%= link_to t('.show', :default => t("helpers.links.show")),
                     gist_path(gist), :class => 'btn btn-success' %>
 
-      <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                  edit_gist_path(gist), :class => 'btn' %>
-          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+      <tr><td><%= link_to t('.edit', :default => t("helpers.links.edit")),
+                  edit_gist_path(gist), :class => 'btn' %></td></tr>
+          <tr><td><%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                           gist_path(gist),
                           :method => :delete,
                           :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                          :class => 'btn btn-danger' %></td>
-  </tr>
+                          :class => 'btn btn-danger' %></td></tr>
+  </td>
   </tbody>
 </table>
