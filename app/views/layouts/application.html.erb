@@ -53,13 +53,12 @@
           <form class="navbar-form navbar-left pull-right" role="search" action="/gists/search">
             <div class="form-group">
               <%
+                 @gists = Gist.all
                  @allowed = Array.new
                  @gists.each do |gist|
                  @allowed << gist.lang
               end
                  @allowed = @allowed.uniq
-
-
               %>
               <%= select_tag(:lang, options_for_select(@allowed))%>
 
