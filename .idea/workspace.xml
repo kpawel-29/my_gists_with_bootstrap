@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00e5404-3748-44e5-aaa1-473498918a9f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/gists/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_gists_with_bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,30 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/gists/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.21301775" vertical-offset="0" max-vertical-offset="612">
+            <state line="10" column="29" selection-start="446" selection-end="446" vertical-scroll-proportion="-5.0740743" vertical-offset="43" max-vertical-offset="666">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/gists/search.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="756">
-              <folding>
-                <marker date="1396302634000" expanded="true" signature="104:1183" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="165:1063" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="187:1056" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="243:1006" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="275:994" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="441:979" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="702:964" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1026:1047" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1132:1182" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -57,84 +39,24 @@
         <entry file="file://$PROJECT_DIR$/app/views/gists/search.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1386">
-              <folding>
-                <marker date="1396302634000" expanded="true" signature="239:1221" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="261:1130" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="317:1080" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="349:1068" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="515:1053" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="776:1038" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1100:1121" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1282:2287" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1304:2173" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1360:2123" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1392:2111" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1558:2096" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="1819:2081" placeholder="..." />
-                <marker date="1396302634000" expanded="true" signature="2143:2164" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/gists/index.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="8" selection-start="191" selection-end="191" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="17" selection-start="2653" selection-end="2653" vertical-scroll-proportion="-10.962963" vertical-offset="730" max-vertical-offset="1566">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gist.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/gist.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gists_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/gists_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="12" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1656">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="8" selection-start="1710" selection-end="1710" vertical-scroll-proportion="-34.666668" vertical-offset="0" max-vertical-offset="1098">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gists.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/gists.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_gist.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="624" selection-end="750" vertical-scroll-proportion="-9.62963" vertical-offset="64" max-vertical-offset="558">
+            <state line="52" column="95" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.44262296" vertical-offset="666" max-vertical-offset="1602">
               <folding />
             </state>
           </provider>
@@ -172,17 +94,17 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/gists/_gist.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/gist.rb" />
         <option value="$PROJECT_DIR$/app/controllers/gists_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/gists/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1366" />
-    <option name="height" value="649" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -547,7 +469,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="649" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -794,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/gists/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="446" selection-end="446" vertical-scroll-proportion="-1.7777778" vertical-offset="132" max-vertical-offset="666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
@@ -885,41 +800,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/gists/search.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-          <folding>
-            <marker date="1396302634000" expanded="true" signature="239:1221" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="261:1130" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="317:1080" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="349:1068" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="515:1053" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="776:1038" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1100:1121" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1282:2287" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1304:2173" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1360:2123" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1392:2111" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1558:2096" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1819:2081" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="2143:2164" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/search.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
           <folding>
-            <marker date="1396302634000" expanded="true" signature="104:1183" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="165:1063" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="187:1056" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="243:1006" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="275:994" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="441:979" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="702:964" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1026:1047" placeholder="..." />
-            <marker date="1396302634000" expanded="true" signature="1132:1182" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1396302634000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -927,13 +820,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/gist.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="17" selection-start="2653" selection-end="2653" vertical-scroll-proportion="-10.962963" vertical-offset="730" max-vertical-offset="1566">
           <folding />
         </state>
       </provider>
@@ -947,14 +833,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/_gist.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="624" selection-end="750" vertical-scroll-proportion="-9.62963" vertical-offset="64" max-vertical-offset="558">
+        <state line="11" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.38372093" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.21301775" vertical-offset="0" max-vertical-offset="612">
+        <state line="9" column="8" selection-start="191" selection-end="191" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/gists/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="446" selection-end="446" vertical-scroll-proportion="-5.0740743" vertical-offset="43" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/gists/search.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="95" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.44262296" vertical-offset="666" max-vertical-offset="1602">
           <folding />
         </state>
       </provider>
