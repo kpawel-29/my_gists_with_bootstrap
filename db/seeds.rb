@@ -33,34 +33,32 @@ echo suma($a, $b); // 8
 ?>";
 
 
-@pascal = "program fibonacci;
-var
-  i, liczba: word;
-  a, b, c: longint;
-begin
-  writeln('Podaj, ktora liczbe z ciagu Fibonacciego chcesz zobaczyc: ');
-  readln(liczba);
-  a := 1;
-  b := 1;
-  if liczba <= 2 then
-    writeln('Wynik: ', a)
-  else
-  begin
-    for i := 3 to liczba do
-    begin
-      c := a+b;
-      a := b;
-      b := c;
-    end;
-    writeln('Wynik: ', c);
-  end;
-end.";
+@css = "<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+</style>
+</head>
+
+<body>
+<p><b><a href=\"default.asp\" target=\"_blank\">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS
+definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order
+to be effective.</p>
+</body>
+</html>
+";
 
 
 7.times do
   Gist.create(snippet: @php,  lang: 'php', description: 'php function');
-  Gist.create(snippet: @python, lang: 'python', description: 'python function');
+  Gist.create(snippet: @python, lang: 'python', description: 'python example');
 
-  Gist.create(snippet: @pascal, lang: 'pascal', description: 'fibonacci pascal');
+  Gist.create(snippet: @css, lang: 'html', description: 'html example');
 
 end
