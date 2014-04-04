@@ -36,12 +36,12 @@
 
 
   <%= render @gists %>
-
+  <div id="infinite-scrolling">
+    <%= will_paginate %>
+  </div>
 </div>
 
-<div id="infinite-scrolling">
-  <%= will_paginate %>
-</div>
+
 
 
 
