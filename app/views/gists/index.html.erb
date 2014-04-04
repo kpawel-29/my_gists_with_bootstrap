@@ -4,41 +4,21 @@
 </div>
 
 
-<div id="infinite-scrolling" position="fixed">
+
   <%= will_paginate %>
-</div>
-
-<thead>
-<!--<table class="table table-striped">-->
-<!--<tr>-->
-<!--<th><%= model_class.human_attribute_name(:id) %></th>-->
-<!--<th><%= model_class.human_attribute_name(:snippet) %></th>-->
-<!--<th><%= model_class.human_attribute_name(:lang) %></th>-->
-<!--<th><%= model_class.human_attribute_name(:description) %></th>-->
-<!--<th><%=t '.actions', :default => t("helpers.actions") %></th>-->
-
 
 
 <thead>
-<!--<table class="table table-striped">-->
-<!--<tr>-->
-  <!--<th><%= model_class.human_attribute_name(:id) %></th>-->
-  <!--<th><%= model_class.human_attribute_name(:snippet) %></th>-->
-  <!--<th><%= model_class.human_attribute_name(:lang) %></th>-->
-  <!--<th><%= model_class.human_attribute_name(:description) %></th>-->
-  <!--<th><%=t '.actions', :default => t("helpers.actions") %></th>-->
 
-<!--</tr>-->
-<!--</table>-->
 </thead>
 
 <div id="my-gists">
 
 
     <%= render @gists %>
-  <div id="infinite-scrolling">
-    <%= will_paginate %>
-  </div>
+</div>
+<div id="infinite-scrolling">
+  <%= will_paginate %>
 </div>
 
 
